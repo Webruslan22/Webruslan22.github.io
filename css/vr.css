@@ -1,0 +1,1341 @@
+* {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+.header {
+	background-color:  rgba(0, 0, 0, 0.62);
+	 /*opacity: 0.7;*/
+	 padding-bottom: 20px;
+}
+
+
+.header-title {
+	margin-left: 16px;
+	color:  #ffffff;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+}
+
+.vr-div {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.container-img {
+    display:inline-block;   
+    position:relative;
+}
+
+.container-img div { 
+    display: inline-block; 
+    position: absolute;
+    bottom: 10px; left: 35px;
+    top: 13px; 
+    padding: 5px 5px 5px 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+}
+
+.header-title-1 {
+	display: block;
+}
+
+.call-number {
+	color:  #ffffff;
+	font-size: 25px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: center;
+}
+
+.second-part {
+	margin-top: 18px;
+}
+
+.call {
+	color:  #94ca2d;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	text-align: left;
+}
+/* main */
+
+.main {
+	margin-top: 111px;
+}
+.din {
+	position: relative;
+	background: url(../img/dino1.png) center no-repeat;
+	background-size: cover;
+	z-index: 1;
+}
+
+.din::before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 0;
+
+}
+
+.vr-main-title {
+	color:  #ffffff;
+	font-size: 39px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-shadow: 1px 3px 0px #272b25;
+}
+
+.vr-main-subtitle {
+	color:  #ffffff;
+	font-size: 30px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;	
+}
+
+.button {
+	text-transform: uppercase;
+	border-radius: 2px;
+	border:none;
+	outline: none;
+	margin-top: 28px;
+	display: block;
+	padding: 17px 55px;
+	color:  #ffffff;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	text-shadow: 0px 1px 2px #578f22;
+	background-color: #93C929;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color:#75F55B;
+	transition: all.6s ease;
+}
+
+.vr-glasses {
+	margin-top: 45px;
+}
+
+.dino-phone {
+	position: absolute;
+	top: 10%;
+	left: 90%;
+}
+
+/*about*/
+
+.about {
+	background-color: #F5F5EE;
+	padding-top: 106px;
+	padding-bottom: 69px;
+}
+
+.About-header {
+	margin-bottom: 43px;
+	color:  #000000;
+	font-size: 35px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: left;
+}
+
+.about-header-title {
+	margin-bottom: 33px;
+	color:  #000000;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+.list-1 {
+	display: inline-block;
+	margin-right: 24px;
+}
+.list-2 {
+	display: inline-block;
+}
+
+.headerlines {
+	display: block;
+	color:  #000000;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	text-align: left;
+}
+
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+    color:  #000000;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+.button-big {
+	margin-top: 33px;
+	text-transform: uppercase;
+	border-radius: 2px;
+	border:none;
+	outline: none;
+	background-color: #93C929;
+	padding: 18px 15px;
+	color:  #ffffff;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	text-shadow: 0px 1px 2px #578f22;
+}
+.price {
+	
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 8px;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: left;
+}
+
+.number-price {
+	margin-top: 10px;
+	color:  #b61919;
+	font-size: 25px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: left;
+}
+
+.price-1 {
+	
+	display: inline-block;
+	margin-top: 28px;
+	margin-right: 8px;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: left;
+}
+
+.number-price-1 {
+	margin-top: 24px;
+	color:  #b61919;
+	font-size: 25px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: left;
+}
+
+.li-pult {
+	font-weight: 700;
+}
+
+.pult {
+	position: absolute;
+	left: 90%;
+	top: 35%;
+}
+
+.vrglass11 {
+	position: absolute;
+	top: 15%;
+	left: 7%;
+}
+
+.Bleetooth {
+	
+	
+	color:  #000000;
+	font-size: 25px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: center;
+}
+
+.connecting {
+	display: block;
+	color:  #000000;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	text-align: right;
+}
+
+.strelka {
+	position: absolute;
+	top: 55%;
+	left: 98%;
+}
+
+.title {
+	position: absolute;
+	top: 70%;
+	left: 62%;
+}
+
+/* popup  */
+
+.popup {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%);
+	
+}
+
+.form {
+	padding: 20px 27px;
+	margin-top: 7px;
+	border-radius: 3px;
+	border-width: 4px;
+	border-color:  #21a3af;
+	border-style: solid;
+	background-color:  #000000;
+}
+
+.popup-header {
+	margin-bottom: 34px;
+	display: block;
+	color:  #ffffff;
+	font-size: 19px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: center;
+}
+
+.popup-input {
+	display: block;
+	border-radius: 3px;
+	padding-left: 20px;
+	border-width: 2px;
+	border-color:  #ffffff;
+	border-style: solid;
+	width: 266px;
+	height: 50px;
+	background-color:  #000000;
+	margin-bottom: 10px;
+	color:  #ffffff;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+.button-popup {
+	text-transform: uppercase;
+	border:none;
+	border-radius: 3px;
+	background-color:  #94ca2d;
+	width: 266px;
+	height: 62px;	
+	color:  #ffffff;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	text-shadow: 0px 1px 2px #578f22;
+}
+
+.small-call {
+	font-weight: 300;
+	display: block;
+	margin-top: 5px;
+	text-align: center;
+	color:  #ffffff;
+	font-size: 15px;/* Приближение из-за подстановки шрифтов */
+}
+
+
+
+.popup-close {
+  outline: none;
+  position: absolute;
+  color:#21a3af;
+  font-size: 20px;
+  font-weight: 700;
+  left: 95%;
+  border-width: 4px;
+  border-color:  #21a3af;
+  border-style: solid;
+  background-color:  #131313;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+}
+
+/*advantages*/
+
+.advantages {
+	padding-bottom: 75px;
+}
+
+.iron-man {
+	margin: 0;
+	margin-top: 88px;
+	margin-bottom: 50px;
+}
+
+
+.header-watch {
+	margin-top: 128px;
+	display: block;
+	color:  #000000;
+	font-size: 22px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.watch-title {
+	color:  #000000;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+.video {
+	position: absolute;
+	top: 26%;
+	left: -10%;
+}
+
+.cub {
+	position: absolute;
+	left: 120%;
+}
+
+.video-1 {
+	position: absolute;
+	top: 5%;
+	left: -10%;
+}
+
+.car {
+	display: block;
+}
+
+.iphoneshark {
+	position: absolute;
+	bottom: 10%;
+	left: 39%;
+}
+
+.watch-1 {
+	margin-top: 0;
+}
+
+/*order-form*/
+
+.order-form {
+	background: url(../img/foni.jpg) center no-repeat;
+	background-size: cover;
+	padding-top: 25px;
+	padding-bottom: 23px;
+}
+
+.header-order {
+	color:  #ffffff;
+	font-size: 35px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 40px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	padding-top: 88px;
+	padding-bottom: 20px;
+}
+
+.container-1 {
+    display:inline-block;   
+    position:relative;
+}
+
+.container-1 div { 
+    display: inline-block; 
+    position: absolute; 
+    bottom: 10px; left: 0px; 
+    padding: 5px 5px 5px 10px;
+    font-size: 17px;
+    color: white;
+}
+
+.triangle {
+	position: absolute;
+	top: 189px;
+	left: 89%;
+}
+
+
+.popup-input-3 {
+	margin-left: 11px;
+	margin-bottom: 8px;
+}
+
+.apllications {
+	display: inline-block;
+	margin-top: 33px;
+	margin-right: 70px;
+	margin-left: 30px;
+	color:  #ffffff;
+    font-size: 18px; Приближение из-за подстановки шрифтов 
+    font-weight: 500;
+    text-align: left;    
+} 
+
+.watch-bag {
+	position: absolute;
+	left: 1%;
+
+}
+
+.watch-bag-1 {
+	position: absolute;
+	right: 103%;
+}
+
+
+.ap-1 {
+	position: absolute;
+	color:  #ffffff;
+	top: 80%;
+    font-size: 18px; Приближение из-за подстановки шрифтов 
+    font-weight: 500;
+    text-align: left;  
+}
+/*iphone-skiing*/
+
+
+.iphone-skiing {
+	margin-top: 40px;
+	margin-bottom: 76px;
+}
+
+.assassin-mackbook {
+	margin-left: 122px;
+}
+
+/*how it works*/
+
+.how-it-works {
+	background-color:  #f8f8f0;
+	padding-bottom: 150px;
+	padding-top: 90px;
+}
+
+.header-works {
+	color:  #000000;
+	font-size: 35px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: center;
+}
+
+.container-3 img {
+	display: block;
+	margin: auto;
+	margin-top: 12px;
+}
+
+.number-round {
+	margin-top: 65px;
+	max-height: 250px;
+}
+
+.number-round-1 {
+	margin-top: 80px;
+}
+
+.number-round-2 {
+	margin-top: 102px;
+}
+
+.round {
+	position: absolute;
+	left: 100px;
+	top: 200px;
+}
+
+/*vr-price*/
+
+.vr-price {
+	padding-top: 40px;
+	padding-bottom: 74px;
+}
+
+
+.header-glasses-vr {
+	color:  #000000;
+	font-size: 35px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align:left;
+	padding-bottom: 83px;
+}
+
+.subtitle-vr {
+	color:  #000000;
+	font-size: 22px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	padding-top: 16px;
+	padding-left: 27px;
+}
+
+
+.vr-1-1 {
+	padding-left: 48px;
+}
+.subtitle-vr-img {
+	color:  #000000;
+	font-size: 22px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: left;
+}
+
+.price-img {
+	margin-left: 15px;
+}
+
+/*watch-vr*/
+
+.watch-vr {
+	padding-top: 95px;
+	padding-bottom: 170px;
+	background: url(../img/fons/fon-vr.png) center no-repeat;
+	background-size: cover;
+}
+
+.header-watch-vr {
+	color:  #ffffff;
+	font-size: 35px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: center;
+}
+
+.play-video {
+	display: block;
+	margin:auto;
+	background-color: none;
+	margin-top: 15px;
+	outline: none;
+}
+
+.play-video:active {
+  transform: scale(0.8);
+}
+
+/*games*/ 
+
+.games {
+	padding: 98px 76px;
+}
+
+.header-works-1 {
+	font-weight: 700;
+}
+
+.icons {
+}
+
+.icons-1 {
+	margin-bottom: 20px;
+	margin-right: 8px;
+}
+
+.icons-img {
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+.img-games {
+	display: block;
+	margin-top: 30px;
+}
+
+.img-games-1 {
+	display: block;
+	margin: 0;
+}
+
+.img-g {
+	display: block;
+	margin-top: 60px;
+} 
+
+.header-planet {
+	font-size: 22px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	padding-top: 40px;
+	padding-bottom: 17px;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+.header-weapon {
+	padding-top: 25px;
+}
+
+.title-planet {
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+
+
+/*reviews*/
+
+.reviews {
+	background-color:  #f8f8f0;
+	padding-bottom: 100px;
+	padding-top: 90px;
+}
+
+.reviews-form {
+	position: relative;
+	background-color: white;
+	border: 1px solid #3eb7b7;
+	border-radius: 3px;
+	margin-top: 71px;
+	display: inline-block;
+	padding: 33px 27px;
+}
+
+.header-reviews {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.client-img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 28px;
+	margin-bottom: 28px;
+}
+
+.title-reviews {
+	color:  #000000;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+.button-game {
+	padding: 20px;
+}
+
+/*how-we-work*/
+
+.how-we-work {
+	padding-bottom: 30px;	
+}
+
+
+.we-con-work {
+	margin-bottom: 77px;
+}
+.slider-block {
+	text-align: center;
+
+}
+.slick-active {
+	outline:none;
+}
+
+.prev {
+	position: absolute;
+	top: 50%;
+	z-index: 99;
+	width: 20px;
+	height: 20px;
+	border:none;
+	background: url(../img/strelky/left.png) no-repeat;
+	outline:none;
+	left: 0;
+	transform: scaleY(-50%);
+}
+
+.next {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 99;
+	width: 20px;
+	height: 20px;
+	border:none;
+	background: url(../img/strelky/right.png) no-repeat;
+	outline:none;
+	right: 0;
+}
+
+.feature-img img {
+	max-height: 137px;
+	display: block;
+	margin:auto;
+	margin-bottom: 10px;
+}
+
+
+
+/*order-form-2-with-marvel*/
+
+.order-form-2-with-marvel {
+	background: url(../img/fons/fon-marvel.png) center no-repeat;
+	background-size: cover;
+	padding-top: 25px;
+	padding-bottom: 67px;
+}
+
+/*question*/
+
+.question {
+	margin: 57px 58px;
+}
+
+.header-question {
+	color:  #000000;
+	font-size: 35px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: center;
+}
+
+.maneger {
+	display: inline-block;
+	padding-top: 15px;
+	border-bottom: 1px dashed #000080;
+	color:  #040605;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+}
+
+.questions {
+	text-align: center;
+}
+
+/* slider */
+
+
+.footer {
+	background-color: black;
+	padding-bottom: 20px;
+}
+
+@media all and (min-width: 200px) and (max-width: 360px){
+	.round {
+		/*left: 110px;*/
+		text-align: center;
+	}
+ 
+}
+@media all and (min-width: 360px) and (max-width: 668px){
+	.round {
+		/*left: 155px;*/
+		text-align: center;
+	}
+ 
+}
+
+@media(max-width:768px){
+	.main {
+		margin-top: 30px;
+	}
+	.vr_img {
+		width: 53px;
+		height: 26px;
+	}
+
+	.container-img div { 
+	   font-size: 8.67px;
+	   left: 16px;
+	   top: 6px;
+	   font-weight: 700;
+	}
+
+	.header-title {
+		font-size: 12px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 500;
+	}
+
+	.call-number {
+		font-size: 17px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 700;
+	}
+
+	.call {
+		font-size: 14px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 400;
+		padding-left: 10px;
+	}
+
+	.vr-main-title {
+		font-size: 16px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 700;
+	}
+
+	.vr-main-subtitle {
+		font-size: 17px;
+	}
+
+	.button {
+		padding: 10px 25px;
+		font-size: 10px;
+	}
+
+	.vr-glasses {
+		width: 151px;
+		height: 84px;
+	}
+
+	.dino-phone {
+		display: none;
+	}
+	.About-header {
+		font-size: 22px;
+	}
+	.about-header-title {
+		font-size: 11px;
+	}
+
+	.coplication {
+		display: none;
+	}
+
+	.button-big {
+		padding: 15px 15px;
+		font-size: 10.37px;
+		text-shadow: 0px 1px 2px #578f22;
+	}
+
+	.iron-man {
+		width: 327px;
+		height: 248px;
+		margin: 0;
+		padding: 0;
+	}
+	.video {
+		display: none;
+	}
+
+	.header-watch {
+		margin: 0;
+	}
+
+	.cub {
+		display: none;
+	}
+
+	.video-1 {
+		display: none;
+	}
+
+	.watch-1 {
+		margin-top: 30px;
+	}
+
+	.iphoneshark {
+		width: 173px;
+		height: 152px;
+	}
+	.car {
+		width: 195px;
+		height: 94px;
+		margin-top: 90px;
+	}
+
+	.header-order {
+		margin: 0;
+		padding: 0;
+		font-size: 26px;
+	}
+
+	.promougolnik {
+		margin-top: 10px;
+		width: 270px;
+		height: 90px;
+	}
+	.triangle {
+		display: none;
+	}
+
+	.advantages-22 {
+		display: none;
+	}
+
+	.apllications {
+		display: block;
+		margin-bottom: 130px;
+	}
+
+	.ap-1 {
+		display: block;
+		margin-left: 30px;
+	}
+
+	.little-form {
+		display: inline-block;
+	}
+
+
+	.slid {
+	    display:inline-block;   
+	    position:relative;
+	   	margin-left: 40px;
+	}
+
+	.slid div { 
+	    display: inline-block; 
+	    position: absolute;
+	    bottom: 10px; 
+	    right: 235px;
+	    top: 13px; 
+	    padding: 5px 5px 5px 10px;
+	    font-size: 17px;
+	    font-weight: 700;
+	    color: black;
+	}
+	.little-popup {
+		width: 200px;
+		display: block;
+		margin:auto;
+		margin-bottom: 10px;
+	}
+
+	.price-img img {
+		width: 250px;
+	}
+	.subtitle-vr-img {
+		font-size: 18px;
+	}
+	.img-phones {
+		display: inline-block;
+	}
+
+	.img-phones img {
+		width: 56px;
+		height: 99px;
+	}
+
+	.img-phones p {
+		font-size: 14px;
+		margin: 0;
+		margin-left: -28px;
+		margin-bottom: 20px;
+	}
+
+	.header-works {
+		font-size: 19px;
+	}
+	.icons {
+		margin-left: 15px;
+		width: 84px;
+		height: 47px;
+	}
+	.icons-1 {
+		display: none;
+	}
+	.header-planet {
+		font-size: 13px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 400;
+		line-height: 24px;/* Приближение из-за подстановки шрифтов */
+		text-align: left;
+	}
+	.img-games {
+
+	}
+
+	.title-planet {
+		font-size: 10px;/* Приближение из-за подстановки шрифтов */
+		text-align: left;
+	}
+
+	.button-game {
+		font-size: 11px;
+		width: 173px;
+		height: 40px;
+		display: block;
+		margin:auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.header-works {
+		font-size: 22px;
+	}
+	.reviews {
+		margin-top: 0;
+	}
+	.reviews-form {
+		
+	}
+	.client-img {
+		width: 28px;
+		height: 28px;
+	}
+	.header-reviews {
+		font-size: 12px;
+	}
+	.title-reviews {
+		font-size: 12px;
+		text-align: center;
+	}
+
+	.cloud {
+		display: none;
+	}
+	.games {
+		padding: 0;
+		padding-top: 20px;
+	}
+
+	
+}
+
+@media all and (min-width: 770px) and (max-width: 1208px){
+	.main {
+		margin-top: 30px;
+	}
+	.vr_img {
+		width: 53px;
+		height: 26px;
+	}
+
+	.container-img div { 
+	   font-size: 8.67px;
+	   left: 16px;
+	   top: 6px;
+	   font-weight: 700;
+	}
+
+	.header-title {
+		font-size: 12px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 500;
+	}
+
+	.call-number {
+		font-size: 17px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 700;
+	}
+
+	.call {
+		font-size: 14px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 400;
+		padding-left: 10px;
+	}
+
+	.vr-main-title {
+		font-size: 20px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 700;
+	}
+
+	.vr-main-subtitle {
+		font-size: 22px;
+	}
+
+	.button {
+		padding: 10px 25px;
+		font-size: 10px;
+	}
+
+	.vr-glasses {
+		width: 151px;
+		height: 84px;
+	}
+
+	.dino-phone {
+		top: 100px;
+		width: 200px;
+	}
+	.About-header {
+		font-size: 22px;
+	}
+	.about-header-title {
+		font-size: 19px;
+	}
+	.advantages {
+		margin-top: 10px;
+	}
+
+	.coplication {
+		display: none;
+	}
+
+	.button-big {
+		padding: 15px 15px;
+		font-size: 10.37px;
+		text-shadow: 0px 1px 2px #578f22;
+	}
+
+	.iron-man {
+		width: 327px;
+		height: 248px;
+		margin: 0;
+		padding: 0;
+	}
+	.video {
+		display: none;
+	}
+
+	.header-watch {
+		margin: 0;
+	}
+
+	.cub {
+		display: none;
+	}
+
+	.video-1 {
+		display: none;
+	}
+
+	.watch-1 {
+		margin-top: 30px;
+	}
+
+	.iphoneshark {
+		width: 173px;
+		height: 152px;
+	}
+	.car {
+		width: 195px;
+		height: 94px;
+		margin-top: 90px;
+	}
+
+	.header-order {
+		margin: 0;
+		padding: 0;
+		font-size: 26px;
+	}
+
+	.promougolnik {
+		margin-top: 10px;
+		width: 270px;
+		height: 90px;
+	}
+	.triangle {
+		display: none;
+	}
+
+	.advantages-22 {
+		display: none;
+	}
+
+	.apllications {
+		display: block;
+		margin-bottom: 130px;
+	}
+
+	.ap-1 {
+		display: block;
+		margin-left: 30px;
+	}
+
+	.little-form {
+		display: inline-block;
+	}
+
+
+	.slid {
+	    display:inline-block;   
+	    position:relative;
+	    text-align: center;
+	}
+
+	.slid div { 
+	    display: inline-block; 
+	    position: absolute;
+	    bottom: 10px; 
+	    right: 235px;
+	    top: 13px; 
+	    padding: 5px 5px 5px 10px;
+	    font-size: 17px;
+	    font-weight: 700;
+	    color: black;
+	}
+	.little-popup {
+		width: 200px;
+		display: block;
+		margin:auto;
+		margin-bottom: 10px;
+	}
+
+	.price-img img {
+		width: 250px;
+	}
+	.subtitle-vr-img {
+		font-size: 18px;
+	}
+	.img-phones {
+		display: inline-block;
+	}
+
+	.img-phones img {
+		width: 56px;
+		height: 99px;
+	}
+
+	.img-phones p {
+		font-size: 14px;
+		margin: 0;
+		margin-left: -28px;
+		margin-bottom: 20px;
+	}
+
+	.header-works {
+		font-size: 19px;
+	}
+	.icons {
+		margin-left: 15px;
+		width: 84px;
+		height: 47px;
+	}
+	.icons-1 {
+		display: none;
+	}
+	
+	.button-game {
+		font-size: 11px;
+		width: 173px;
+		height: 40px;
+		display: block;
+		margin:auto;
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+	.header-works {
+		font-size: 22px;
+	}
+	.reviews {
+		margin-top: 0;
+	}
+	.reviews-form {
+		
+	}
+	.client-img {
+		width: 28px;
+		height: 28px;
+	}
+	.header-reviews {
+		font-size: 12px;
+	}
+	.title-reviews {
+		font-size: 12px;
+		text-align: center;
+	}
+		.cloud {
+			margin-left: -50px;
+		}
+	.games {
+		padding: 0;
+		padding-top: 20px;
+	}
+
+	
+}
